@@ -1,0 +1,38 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="967286cd-ea72-486e-8886-6a62e76e4a5e" name="reigndesignsinc.com" url="http://reigndesignsinc.com">
+        <fileTransfer host="reigndesignsinc.com" port="22" privateKey="C:\..sshkey-reigndesignsinc\reigndes.1546901871" rootFolder="/home1/reigndes/" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="38dbfb61-eee5-49e8-853c-aff953f75b37" name="reignwestry.com" url="http://reignwestry.com">
+        <fileTransfer host="reigndesignsinc.com" port="22" privateKey="C:\..sshkey-reigndesignsinc\reigndes.1546901871" rootFolder="/home1/reigndes/public_html/site-reignwestry" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="b45df2cd-b918-47f5-b093-5a4bbab634e8" name="reigndesignsinc" url="http://reigndesignsinc.com">
+        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="027a2902-71e0-400e-a30a-d91b3ac44584" name="reignwestry" url="http://reignwestry.com">
+        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html/site-reignwestry">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
