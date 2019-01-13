@@ -1,8 +1,28 @@
 <application>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
+    <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
   </component>
   <component name="LiveEditOptions" chromeAutoDelay="100" chromeUpdateJSOnChanges="true" nodeAutoDelay="100" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" useJBChromeExtension="true">
     <option name="elementHighlighting" value="true" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern useCustomColors="true" pattern="\bnote\b.*">
+      <option name="FOREGROUND" value="e6e100" />
+      <option name="BACKGROUND" value="412202" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="EFFECT_COLOR" value="3c3f41" />
+    </pattern>
+    <pattern pattern="\bfixme\b.*" />
+    <pattern useCustomColors="true" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="e5ff" />
+      <option name="BACKGROUND" value="1aab" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="\binstructions\b.*">
+      <option name="FOREGROUND" value="ff1b" />
+      <option name="BACKGROUND" value="410c" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
   </component>
 </application>
