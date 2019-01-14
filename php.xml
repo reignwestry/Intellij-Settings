@@ -7,17 +7,17 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="C:\php\7.2\php.exe" id="b88f4a0a-3e03-4cdd-917a-a76a6384caf2" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\php\7.3.0\php.exe" id="6acec88f-dfa3-4bf2-96a8-4ab48b6e207c" name="PHP 7.3" debugger_id="php.debugger.XDebug" debugger_extension="C:\php\7.3.0\ext\php_xdebug-2.7.0beta1-7.3-vc15-x86_64.dll" />
       <interpreter home="C:\xampp\php\php.exe" id="2ad5c83d-13e2-4591-b48c-bbc069055ff6" name="XAMPP-PHP-7.3" debugger_id="php.debugger.XDebug" debugger_extension="C:\xampp\php\ext\php_xdebug-2.7.0beta1-7.3-vc15-nts-x86_64.dll" />
+      <interpreter home="C:\php\7.2.14\php.exe" id="a3fcea1d-3765-4f0f-ba5b-df6fd379cdd9" name="PHP-7.2.14" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\php\7.3.1\php.exe" id="1652baea-df95-47a0-9e13-5948620a729e" name="PHP 7.3.1" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.3">
-        <phpinfo binary_type="PHP" php_cgi="C:\php\7.3.0\php-cgi.exe" php_cli="C:\php\7.3.0\php.exe" path_separator=";" version="7.3.0">
+      <interpreter name="PHP 7.3.1">
+        <phpinfo binary_type="PHP" php_cgi="C:\php\7.3.1\php-cgi.exe" php_cli="C:\php\7.3.1\php.exe" path_separator=";" version="7.3.1">
           <additional_php_ini />
-          <configuration_file>C:\php\7.3.0\php.ini</configuration_file>
+          <configuration_file>C:\php\7.3.1\php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
@@ -59,12 +59,12 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="PHP 7.2">
-        <phpinfo binary_type="PHP" php_cgi="C:\php\7.2\php-cgi.exe" php_cli="C:\php\7.2\php.exe" path_separator=";" version="7.2.2">
+      <interpreter name="PHP-7.2.14">
+        <phpinfo binary_type="PHP" php_cgi="C:\php\7.2.14\php-cgi.exe" php_cli="C:\php\7.2.14\php.exe" path_separator=";" version="7.2.14">
           <additional_php_ini />
-          <configuration_file>C:\php\7.2\php.ini</configuration_file>
+          <configuration_file>C:\php\7.2.14\php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".;c:\php\7.2\includes" />
+            <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
           <debuggers>
             <debugger_info debugger="xdebug" debugger_version="2.6.1">
@@ -79,25 +79,17 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="bcmath" />
-            <extension name="bz2" />
             <extension name="calendar" />
             <extension name="ctype" />
-            <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
-            <extension name="fileinfo" />
             <extension name="filter" />
-            <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
             <extension name="json" />
             <extension name="libxml" />
-            <extension name="mbstring" />
-            <extension name="mysqli" />
             <extension name="mysqlnd" />
-            <extension name="openssl" />
             <extension name="pcre" />
-            <extension name="pdo_mysql" />
             <extension name="readline" />
             <extension name="session" />
             <extension name="standard" />
