@@ -8,7 +8,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="C:\php\7.2\php.exe" id="b88f4a0a-3e03-4cdd-917a-a76a6384caf2" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
-      <interpreter home="C:\php\7.3.0\php.exe" id="6acec88f-dfa3-4bf2-96a8-4ab48b6e207c" name="PHP 7.3" debugger_id="php.debugger.XDebug" />
+      <interpreter home="C:\php\7.3.0\php.exe" id="6acec88f-dfa3-4bf2-96a8-4ab48b6e207c" name="PHP 7.3" debugger_id="php.debugger.XDebug" debugger_extension="C:\php\7.3.0\ext\php_xdebug-2.7.0beta1-7.3-vc15-x86_64.dll" />
       <interpreter home="C:\xampp\php\php.exe" id="2ad5c83d-13e2-4591-b48c-bbc069055ff6" name="XAMPP-PHP-7.3" debugger_id="php.debugger.XDebug" debugger_extension="C:\xampp\php\ext\php_xdebug-2.7.0beta1-7.3-vc15-nts-x86_64.dll" />
     </interpreters>
   </component>
@@ -21,7 +21,11 @@
           <configuration_options>
             <configuration_option name="include_path" value=".;C:\php\pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.0beta1">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -46,6 +50,7 @@
             <extension name="standard" />
             <extension name="tokenizer" />
             <extension name="wddx" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
@@ -62,7 +67,7 @@
             <configuration_option name="include_path" value=".;c:\php\7.2\includes" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.6.0">
+            <debugger_info debugger="xdebug" debugger_version="2.6.1">
               <debug_extensions />
             </debugger_info>
           </debuggers>
