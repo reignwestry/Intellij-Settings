@@ -33,9 +33,6 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
-      <webServer id="88f58b57-2056-4070-b5d8-25f17294d4bd" name="bootstrap-portfolio-localhost-server" url="http://localhost:8888/&amp;-01-Portfolio-Design/Portfolio-Design-7-BOOTSTRAP-Latest">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
     </option>
   </component>
 </application>
