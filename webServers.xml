@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="682d2903-bcda-4d98-ab6b-ef70059f16a3" name="01-Laravel-blog" url="http://localhost:8888/&amp;-07-LARAVEL-PROJECTS/01-LARAVEL-BLOG/public">
-        <fileTransfer port="0" accessType="LOCAL" />
+        <fileTransfer port="0" mountedRoot="C:\..SiteProjects\&amp;-07-LARAVEL-PROJECTS\01-LARAVEL-BLOG\public" accessType="MOUNT" />
       </webServer>
       <webServer id="967286cd-ea72-486e-8886-6a62e76e4a5e" name="reigndesignsinc.com" url="http://reigndesignsinc.com">
         <fileTransfer host="reigndesignsinc.com" port="22" privateKey="C:\..sshkey-reigndesignsinc\reigndes.1546901871" rootFolder="/home1/reigndes/" accessType="SFTP" keyPair="true">
