@@ -23,7 +23,7 @@
     <global-watchers>
       <TaskOptions>
         <option name="arguments" value="$FileName$ --no-cache --update $FileName$:../css/$FileNameWithoutExtension$.css --source-map" />
-        <option name="checkSyntaxErrors" value="false" />
+        <option name="checkSyntaxErrors" value="true" />
         <option name="description" />
         <option name="exitCodeBehavior" value="ERROR" />
         <option name="fileExtension" value="less" />
@@ -49,7 +49,7 @@
       </TaskOptions>
       <TaskOptions>
         <option name="arguments" value="--no-cache --update $FileName$:../css/$FileNameWithoutExtension$.css" />
-        <option name="checkSyntaxErrors" value="false" />
+        <option name="checkSyntaxErrors" value="true" />
         <option name="description" />
         <option name="exitCodeBehavior" value="ERROR" />
         <option name="fileExtension" value="scss" />
@@ -69,7 +69,7 @@
       </TaskOptions>
       <TaskOptions>
         <option name="arguments" value="--no-cache --update $FileName$:../css/$FileNameWithoutExtension$.css" />
-        <option name="checkSyntaxErrors" value="false" />
+        <option name="checkSyntaxErrors" value="true" />
         <option name="description" />
         <option name="exitCodeBehavior" value="ERROR" />
         <option name="fileExtension" value="sass" />
