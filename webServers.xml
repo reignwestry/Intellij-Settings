@@ -36,6 +36,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="0ce9fbb4-1933-4126-bcd3-3bd811fc5ddb" name="reignwestry-bootstrap" url="http://reignwestry.com">
+        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html/site-reignwestry/projects/bootstrap-portfolio">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
