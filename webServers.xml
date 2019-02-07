@@ -29,7 +29,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="027a2902-71e0-400e-a30a-d91b3ac44584" name="reignwestry" url="http://reignwestry.com">
-        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html/site-reignwestry">
+        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html/">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -37,7 +37,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="0ce9fbb4-1933-4126-bcd3-3bd811fc5ddb" name="reignwestry-bootstrap" url="http://reignwestry.com">
-        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html/site-reignwestry/projects/bootstrap-portfolio">
+        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
