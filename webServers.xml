@@ -37,7 +37,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="0ce9fbb4-1933-4126-bcd3-3bd811fc5ddb" name="reignwestry-bootstrap" url="http://reignwestry.com">
-        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html">
+        <fileTransfer host="reigndesignsinc.com" port="21" rootFolder="/public_html/reignwestry">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
