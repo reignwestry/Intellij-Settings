@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6136f5c1-3b61-47bc-9f42-3ba1437a6582" name="reignwestry-portfolio" url="http://www.reignwestry.com">
+        <fileTransfer rootFolder="/home1/reigndes/public_html" accessType="SFTP" host="reignwestry.com" port="22" sshConfigId="c126c0f7-b350-4eaa-8b7e-f0878a67521d" sshConfig="reigndes@reignwestry.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

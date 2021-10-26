@@ -1,0 +1,7 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="reignwestry.com" id="c126c0f7-b350-4eaa-8b7e-f0878a67521d" port="22" nameFormat="DESCRIPTIVE" username="reigndes" />
+    </configs>
+  </component>
+</application>

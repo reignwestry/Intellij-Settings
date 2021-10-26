@@ -1,0 +1,34 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
+    <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
+    <option name="CUSTOM_SOFT_WRAP_INDENT" value="5" />
+    <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="true" />
+  </component>
+  <component name="LiveEditOptions" chromeUpdateJSOnChanges="true" nodeUpdateOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true" />
+  <component name="TodoConfiguration">
+    <pattern useCustomColors="true" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="633e00" />
+      <option name="BACKGROUND" value="1eb24" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="ff6a00" />
+      <option name="BACKGROUND" value="a80200" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="\bidea\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="BACKGROUND" value="10441" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="\bnote\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="BACKGROUND" value="1741" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+  </component>
+</application>
